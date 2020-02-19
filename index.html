@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 100px;
+
+        }
+        .face { 
+            width: 500px;
+            height: 500px;
+            background: beige;
+            border: 1px solid black;
+            border-radius: 50%;
+            position: relative;
+        }
+        .nose {width: 20px; height: 20px; background: black;
+            position: absolute;
+            top: 240px;
+            left: 240px; 
+            }
+        .eye1 { width: 50px; height: 50px; background: black;
+            position: absolute;
+            top: 120px;
+            left: 95px;
+        }
+         .eye2 { width: 50px; height: 50px; background: black;
+            position: absolute;
+            top: 120px;
+            left: 360px;}
+        .nose:hover {
+            background: pink; 
+        }
+        .face:hover {
+            cursor: help;
+        }
+        .mond { width: 280px; height: 65px; background: black;
+            position: absolute;
+            top: 360px;
+            left: 110px;
+            border-radius: 50%;
+            border: 5px solid black;
+            border-width: 0 0 5px 0;
+            /* background: red; */
+            background-color: beige;
+            
+        }
+
+        .face:hover .mond{
+            background-color: blue;
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <div class="face"> 
+        <div class="nose"></div>
+        <div class="eye1"></div>
+        <div class="eye2"> </div>
+        <div class="mond"></div>
+    </div>
+</body>
+</html>
